@@ -1,0 +1,14 @@
+# Build outputs / local cruft
+build/
+out/
+target/
+*.o
+*.a
+*.so
+*.dylib
+**/__pycache__/
+
+# Editor / OS noise
+.DS_Store
+*.swp
+*~

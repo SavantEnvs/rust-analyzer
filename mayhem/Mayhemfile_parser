@@ -1,0 +1,6 @@
+project: savantenvs/rust-analyzer
+target: parser
+
+cmds:
+  - cmd: /mayhem/parser
+    libfuzzer: true

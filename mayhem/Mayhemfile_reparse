@@ -1,0 +1,6 @@
+project: savantenvs/rust-analyzer
+target: reparse
+
+cmds:
+  - cmd: /mayhem/reparse
+    libfuzzer: true
